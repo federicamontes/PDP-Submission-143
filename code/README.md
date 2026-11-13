@@ -1,6 +1,5 @@
 # minhash
 Concurrent implementation of Minhash Sketch.
-Authors: Pepè Sciarria Luca, Montesano Federica, Marotta Romolo
 
 C project providing different implementations of the MinHash sketch data structure for approximate set similarity computation. It supports serial, lock-based, FCDS, and fully concurrent MinHash implementations and is designed for experimentation with parallelism and concurrency.
 
@@ -41,7 +40,7 @@ Includes benchmarks and test programs to validate correctness and performance.
 # Building
 Clone the repository and build via cmake
 
-	git clone git@github.com:federicamontes/minhash.git
+	
 	cd minhash
 	mkdir build && cd build
 	cmake .. [None/-DLOCKS=ON or -DRW_LOCKS=ON/-FCDS=ON/CONC_MINHASH=ON] 
